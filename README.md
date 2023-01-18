@@ -77,6 +77,6 @@
 Made by Lionh34rt#4305
 
 # My Version Includes
-Revised stress system
-Added fish
-Revised reward system
+* Revised stress system
+* Added dozens more fish
+* Revised reward system
