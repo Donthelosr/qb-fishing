@@ -76,6 +76,7 @@
 # Credits
 Made by Lionh34rt#4305
 
-Discord: https://discord.gg/AWyTUEnGeN
-
-Tebex: https://lionh34rt.tebex.io/
+# My Version Includes
+Revised stress system
+Added fish
+Revised reward system
