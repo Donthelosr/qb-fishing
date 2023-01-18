@@ -26,11 +26,12 @@ local fishAnimation = function()
     -- Minigame
     exports['ps-ui']:Circle(function(success)
         if success then
-            TriggerServerEvent('hud:server:RelieveStress', 2)
+            TriggerServerEvent('hud:server:RelieveStress', 5)
             TriggerServerEvent('qb-fishing:server:ReceiveFish')
         else
             QBCore.Functions.Notify('The fish got away!', 'error', 2500)
-            TriggerServerEvent('hud:server:RelieveStress', 1)
+            TriggerServerEvent('hud:server:GainStress', 10)
+           
         end
     end, math.random(Shared.MinigameCirclesMin, Shared.MinigameCirclesMax), Shared.MinigameTime)
 
